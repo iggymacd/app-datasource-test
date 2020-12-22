@@ -1,0 +1,11 @@
+attribute_type: string
+is_transient: false
+export: true
+name: updated_by
+display_name: Updated By
+attribute_size: 255
+default_value: current_user
+description: User who the field/attribute was updated by.
+is_deprecated: false
+is_required: true
+is_unique: false
