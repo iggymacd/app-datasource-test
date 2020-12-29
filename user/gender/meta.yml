@@ -1,0 +1,11 @@
+attribute_type: enum
+is_transient: false
+export: true
+name: gender
+display_name: Gender
+attribute_size: 30
+default_value: 
+description: User gender.
+is_deprecated: false
+is_required: false
+is_unique: false
