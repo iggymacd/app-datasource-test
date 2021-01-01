@@ -15,3 +15,4 @@ permisions:
     administer: User.Administer
 handlers:
 static_attributes:
+path: "/lib/features/home/data/models"
