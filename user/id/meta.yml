@@ -1,11 +1,18 @@
-attribute_type: string
-is_transient: false
-export: true
-name: id
-display_name: ID
-attribute_size: 30
-default_value: auto
-description: Unique id for field.
-is_deprecated: false
-is_required: true
-is_unique: true
+# attribute_type: string
+# is_transient: false
+# export: true
+# name: id
+# display_name: ID
+# attribute_size: 30
+# default_value: auto
+# description: Unique id for field.
+# is_deprecated: false
+# is_required: true
+# is_unique: true
+
+attributetype: string
+displayname: Id
+jsonname: ""
+association: null
+path: ""
+required: true
