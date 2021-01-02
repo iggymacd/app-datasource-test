@@ -1,0 +1,29 @@
+# attribute_type: date_time
+# is_transient: false
+# export: true
+# name: uptated_at
+# display_name: Updated At
+# attribute_size: 30
+# default_value: current_date_time
+# description: Date time when the field/attribute was updated.
+# is_deprecated: false
+# is_required: true
+# is_unique: false
+
+attributetype: enum
+displayname: Vital Status
+jsonname: status
+association:
+  type: single
+  cardinality: many to one
+  entity:
+    name: vital_status
+    meta:
+      description: ""
+      displayname: Vital Status
+      permissions: []
+      attributes: []
+      path: /lib/core/types
+    attributes: []
+path: ""
+required: true
