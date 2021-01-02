@@ -9,3 +9,12 @@ description: User gender.
 is_deprecated: false
 is_required: false
 is_unique: false
+association:
+  type: single
+  cardinality: many to one
+  entity: 
+    name: gender
+    meta:
+      description: User gender.
+      displayName: "gender"
+      
